@@ -19,7 +19,7 @@
 ### **** 
     
 #### 
-![breaking bad](https://twinfinite.net/wp-content/uploads/2021/03/breaking-bad-title-card.jpg)
+![breaking bad](https://m.media-amazon.com/images/M/MV5BOThjODMyM2QtNTNhYi00ZGM4LWIxZTAtMDAyYWNhYzYxMjJiXkEyXkFqcGdeQXVyMTMzNDExODE5._V1_FMjpg_UX1000_.jpgg)
  ***
 ### Task List
 
