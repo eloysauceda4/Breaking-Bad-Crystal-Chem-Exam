@@ -12,16 +12,18 @@
 ### **I'm not in the pharmacy business. I'm in the trivia business.**
    
 
-### ***Ready for your chem class?***
+### Ready for your chem class?
 
 
 ***
-### **** 
+
     
 #### 
 ![breaking bad](https://m.media-amazon.com/images/M/MV5BOThjODMyM2QtNTNhYi00ZGM4LWIxZTAtMDAyYWNhYzYxMjJiXkEyXkFqcGdeQXVyMTMzNDExODE5._V1_FMjpg_UX1000_.jpgg)
  ***
-### Task List
+### **Planning**
+## [wireframe](https://wireframe.cc/cRA18O)
+## [Trello](https://trello.com/invite/b/44Qm25q6/cfa68911f014b8dbd8f8735e77770a7f/breaking-bad-crystal-chem-exam)
 
 ***
 ***
