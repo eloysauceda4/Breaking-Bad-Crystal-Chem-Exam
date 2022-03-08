@@ -1,3 +1,89 @@
+//credits: https://discuss.codecademy.com/t/quiz-in-java-script/571178/3
+
+
+//Required Elements 
+const startBtn = document.querySelector(".startBtn button");
+const infoPage = document.querySelector(".infoPage");
+const exitBtn = infoPage.querySelector(".buttons .quit");
+const continueBtn = infoPage.querySelector(".buttons .restart");
+const examBox = document.querySelector(".examBox");
+const scoreDisplay = document.querySelector('.scorePoints')
+
+//If start quiz button clicked
+startBtn.onclick = () => {
+    infoPage.classList.add("activePage"); //show the info
+}
+
+//If Exit button clicked
+exitBtn.onclick = () => {
+    infoPage.classList.remove("activePage"); //hide the info
+}
+   
+//If cont. button clicked
+continueBtn.onclick = () => {
+    infoPage.classList.remove("activePage"); //hide the info
+    examBox.classList.add("activeExam"); //Start the quiz 
+    showQuestions(0)
+}
+   
+
+let questionCount = 0;
+
+const nextBtn = examBox.querySelector(".nextBtn");
+
+//next button clicked
+nextBtn.onclick = () => {
+questionCount++;
+showQuestions(questionCount)
+   
+}
+
+
+
+//getting questions and answers from array
+function showQuestions (index){
+    const questionSelection = document.querySelector(".questionSelection")
+    const answerChoices = document.querySelector(".answerChoices")
+    
+    let questionElement = '<span>' + questions[index].question + '</span>'
+    
+    let answerSelection = '<div class="answer">'+ questions[index].answers[0] + '<span></span></div>' 
+                          +'<div class="answer">'+ questions[index].answers[1] + '<span></span></div>'
+                          +'<div class="answer">'+ questions[index].answers[2] + '<span></span></div>'
+                          +'<div class="answer">'+   questions[index].answers[3] + '<span></span></div>'
+    questionSelection.innerHTML = questionElement;
+    answerChoices.innerHTML = answerSelection
+
+}
+
+//score
+// let score =0;
+// if (questionSelection === questions[5].correctAnswer) {
+//     alert("Its Correct")
+//     score++
+// } else {
+//     alert("its wrong")
+// }
+
+
+// let score = 0
+
+// answerChoices[0].correctAnswer.addEventListener('click', () => {
+//     score += 10
+//     console.log('click')
+//     console.log(score)
+
+//     if (score < 110) {
+//         scoreDisplay.innerText = score
+//     } else {
+//         declareWinner ()
+//     }
+// })
+
+
+// for (let i = 0; i <= questions.length; i++ ) {
+//     if 
+// }
 
 
 
@@ -39,16 +125,7 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
+//credits:https://www.funtrivia.com/en/Television/Breaking-Bad-20207_5.html
 //Questions script
 //creating array with number, questions, and answers
 let questions = [

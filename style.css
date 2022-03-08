@@ -15,6 +15,16 @@ body {
     box-shadow: 0px 4px 8px 0 black,
                 0px   6px 20px grey;
     transition: all 0.2s ease ;
+    
+}
+
+.infoPage.activePage,
+.examBox.activeExam{
+    z-index: 5;
+    opacity: 1;
+    pointer-events: auto;
+    transform: translate(-50%, -50%) scale(1);
+
 
 }
 
@@ -144,7 +154,7 @@ color: black;
 
 }
 
-.examBox header .timer{
+.examBox header .score{
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -156,14 +166,14 @@ color: black;
     padding: 0 8px;
 }
 
-.examBox header .timer .timeText{
+.examBox header .score .scoreText{
     font-weight: 400;
     font-size: 17px;
     user-select: none;
 
 }
 
-.examBox header .timer .timeSeconds{
+.examBox header .score .scorePoints{
     font-size: 18px;
     font-weight: 500;
     background: red;
@@ -216,12 +226,12 @@ section .answerChoices .answer:hover{
 
 }
 
- .answerChoices .answer:last-child{
+.answerChoices .answer:last-child{
     margin-bottom: 0px;
 
 }
 
-.answerChoices .answer .right_wrong {
+.answerChoices .answer .right_wrong{
     height: 26px;
     width: 26px;
     border: 2px solid transparent;
@@ -325,7 +335,6 @@ footer .nextBtn:hover{
     font-weight: 600;
     padding: 0 4px;
 }
-
 .results .buttons {
     display: flex;
     margin: 20px 0;
