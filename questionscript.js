@@ -3,12 +3,27 @@
 // //creating array with number, questions, and answers
 
 
-// const scoreDisplay = document.querySelector('.scorePoints')
-// correctAnswer.addEventListener('click', ()=> {
+// let score = 0;
+ 
+// for( let i =0; i < questions.length; i++) {
+//     let response = window.prompt(questions[i].prompt);
+//     if (response == questions[i].correctAnswer) {
+//         score++;
+//         alert("correct")
+//     } else {
+//         alert("Wrong")
+//     }
+
+// } 
+
+
+// let scoreE = document.querySelector('.scorePoints')
+// let answerC = document.querySelector('.answerChoices')
+// answerC.addEventListener('click', (correctAnswer)=> {
 //     score += 10
-    
-//     if (score < 100) {
-//         scoreDisplay.innerText = score
+
+//     if (score < 110) {
+//         scoreE.innerText = score
 //     } else {
 //         declareWinner()
 //     }
@@ -18,7 +33,7 @@
 // let questions = [
 //     //index 0
 //     {   ques: 1,
-//         question: "Walter White's transformation from nerdy high school chemistry teacher to criminal kingpin all started with what specific medical diagnosis?",
+//         prompt: "Walter White's transformation from nerdy high school chemistry teacher to criminal kingpin all started with what specific medical diagnosis?",
 //         correctAnswer: "Lung Cancer",
 //         answers: [
 //             "Lung Cancer",
@@ -29,7 +44,7 @@
 //     },
 //     //index 1
 //     {   ques: 2,
-//         question: "Hank, Walt's brother-in-law, is a DEA agent. What does DEA stand for?",
+//         prompt: "Hank, Walt's brother-in-law, is a DEA agent. What does DEA stand for?",
 //         correctAnswer: "Drug Enforcement Administration",
 //         answers: [
 //             "Dog Enforcement Admin",
@@ -40,7 +55,7 @@
 //     },
 //     //index 2
 //     {   ques: 3,
-//         question: "Walter White led a pretty normal life in the south-western part of the United States. All this changed after receiving a diagnoses. Which state does the show take place in?",
+//         prompt: "Walter White led a pretty normal life in the south-western part of the United States. All this changed after receiving a diagnoses. Which state does the show take place in?",
 //         correctAnswer: "New Mexico",
 //         answers: [
 //             "Texas",
@@ -51,7 +66,7 @@
 //     },
 //     //index 3
 //     {   ques: 4,
-//         question: "Walter White is the main character in the show. What is the name of the actor who portrays him?",
+//         prompt: "Walter White is the main character in the show. What is the name of the actor who portrays him?",
 //         correctAnswer: "Bryan Cranston",
 //         answers: [
 //             "Michael B. Jordon",
@@ -62,7 +77,7 @@
 //     },
 //     //index 4
 //     {   ques: 5,
-//         question: "What country is Gus from originally?",
+//         prompt: "What country is Gus from originally?",
 //         correctAnswer: "Chile",
 //         answers: [
 //             "Chile",
@@ -73,7 +88,7 @@
 //     },
 //     //index 5
 //     {   ques: 6,
-//         question: "Who is Walters attorney?",
+//         prompt: "Who is Walters attorney?",
 //         correctAnswer: "Saul Goodman",
 //         answers: [
 //             "Tuco",
@@ -84,7 +99,7 @@
 //     },
 //     //index 6
 //     {   ques: 7,
-//         question: "What nickname does Walt use in the show?",
+//         prompt: "What nickname does Walt use in the show?",
 //         correctAnswer: "Heisenberg",
 //         answers: [
 //             "Henry",
@@ -95,7 +110,7 @@
 //     },
 //     //index 7
 //     {   ques: 8,
-//         question: "Who was Gus' partner in Los Pollos Hermanos and was killed by Hector tio Salamanca??",
+//         prompt: "Who was Gus' partner in Los Pollos Hermanos and was killed by Hector tio Salamanca??",
 //         correctAnswer: "Max",
 //         answers: [
 //             "Max",
@@ -106,7 +121,7 @@
 //     },
 //     //index 8
 //     {   ques: 9,
-//         question: "Hank, Walt's brother-in-law, is a DEA agent. What does DEA stand for?",
+//         prompt: "Hank, Walt's brother-in-law, is a DEA agent. What does DEA stand for?",
 //         correctAnswer: "Drug Enforcement Administration",
 //         answers: [
 //             "Dog Enforcement Admin",
@@ -117,7 +132,7 @@
 //     },
 //     //index 9
 //     {   ques:  10,
-//         question: "In what year was Walt awarded an award for his contributing research that led to a Nobel Prize?",
+//         prompt: "In what year was Walt awarded an award for his contributing research that led to a Nobel Prize?",
 //         correctAnswer: 1985,
 //         answers: [
 //             1985,

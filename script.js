@@ -48,7 +48,7 @@ function showQuestions (index){
     const questionSelection = document.querySelector(".questionSelection")
     const answerChoices = document.querySelector(".answerChoices")
     
-    let questionElement = '<span>' + questions[index].question + '</span>'
+    let questionElement = '<span>' + questions[index].prompt + '</span>'
     
     let answerSelection = '<div class="answer">'+ questions[index].answers[0] + '<span></span></div>' 
                           +'<div class="answer">'+ questions[index].answers[1] + '<span></span></div>'
@@ -103,11 +103,16 @@ function showQuestions (index){
 
 
 
-// //credits:https://www.funtrivia.com/en/Television/Breaking-Bad-20207_5.html
-// //Questions script
-// //creating array with number, questions, and answers
+// // //credits:https://www.funtrivia.com/en/Television/Breaking-Bad-20207_5.html
+// // //Questions script
+// // //creating array with number, questions, and answers
 
-let score = 0;
+
+
+let score = 0
+
+
+
 let scoreE = document.querySelector('.scorePoints')
 let answerC = document.querySelector('.answerChoices')
 answerC.addEventListener('click', (correctAnswer)=> {
@@ -124,7 +129,7 @@ answerC.addEventListener('click', (correctAnswer)=> {
 let questions = [
     //index 0
     {   ques: 1,
-        question: "Walter White's transformation from nerdy high school chemistry teacher to criminal kingpin all started with what specific medical diagnosis?",
+        prompt: "Walter White's transformation from nerdy high school chemistry teacher to criminal kingpin all started with what specific medical diagnosis?",
         correctAnswer: "Lung Cancer",
         answers: [
             "Lung Cancer",
@@ -135,7 +140,7 @@ let questions = [
     },
     //index 1
     {   ques: 2,
-        question: "Hank, Walt's brother-in-law, is a DEA agent. What does DEA stand for?",
+        prompt: "Hank, Walt's brother-in-law, is a DEA agent. What does DEA stand for?",
         correctAnswer: "Drug Enforcement Administration",
         answers: [
             "Dog Enforcement Admin",
@@ -146,7 +151,7 @@ let questions = [
     },
     //index 2
     {   ques: 3,
-        question: "Walter White led a pretty normal life in the south-western part of the United States. All this changed after receiving a diagnoses. Which state does the show take place in?",
+        prompt: "Walter White led a pretty normal life in the south-western part of the United States. All this changed after receiving a diagnoses. Which state does the show take place in?",
         correctAnswer: "New Mexico",
         answers: [
             "Texas",
@@ -157,7 +162,7 @@ let questions = [
     },
     //index 3
     {   ques: 4,
-        question: "Walter White is the main character in the show. What is the name of the actor who portrays him?",
+        prompt: "Walter White is the main character in the show. What is the name of the actor who portrays him?",
         correctAnswer: "Bryan Cranston",
         answers: [
             "Michael B. Jordon",
@@ -168,7 +173,7 @@ let questions = [
     },
     //index 4
     {   ques: 5,
-        question: "What country is Gus from originally?",
+        prompt: "What country is Gus from originally?",
         correctAnswer: "Chile",
         answers: [
             "Chile",
@@ -179,7 +184,7 @@ let questions = [
     },
     //index 5
     {   ques: 6,
-        question: "Who is Walters attorney?",
+        prompt: "Who is Walters attorney?",
         correctAnswer: "Saul Goodman",
         answers: [
             "Tuco",
@@ -190,7 +195,7 @@ let questions = [
     },
     //index 6
     {   ques: 7,
-        question: "What nickname does Walt use in the show?",
+        prompt: "What nickname does Walt use in the show?",
         correctAnswer: "Heisenberg",
         answers: [
             "Henry",
@@ -201,7 +206,7 @@ let questions = [
     },
     //index 7
     {   ques: 8,
-        question: "Who was Gus' partner in Los Pollos Hermanos and was killed by Hector tio Salamanca??",
+        prompt: "Who was Gus' partner in Los Pollos Hermanos and was killed by Hector tio Salamanca??",
         correctAnswer: "Max",
         answers: [
             "Max",
@@ -212,7 +217,7 @@ let questions = [
     },
     //index 8
     {   ques: 9,
-        question: "Hank, Walt's brother-in-law, is a DEA agent. What does DEA stand for?",
+        prompt: "Hank, Walt's brother-in-law, is a DEA agent. What does DEA stand for?",
         correctAnswer: "Drug Enforcement Administration",
         answers: [
             "Dog Enforcement Admin",
@@ -223,7 +228,7 @@ let questions = [
     },
     //index 9
     {   ques:  10,
-        question: "In what year was Walt awarded an award for his contributing research that led to a Nobel Prize?",
+        prompt: "In what year was Walt awarded an award for his contributing research that led to a Nobel Prize?",
         correctAnswer: 1985,
         answers: [
             1985,
@@ -233,7 +238,6 @@ let questions = [
         ]
     }
 ]
-
 
 
 
