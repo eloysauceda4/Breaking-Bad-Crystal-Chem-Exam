@@ -2,6 +2,7 @@ body {
     /* background: url(https://pbs.twimg.com/media/FJkSH9QUcAAGm-Z?format=jpg&name=4096x4096); */
     background-repeat: no-repeat;
     background-size: cover;
+   
     background: url(https://c4.wallpaperflare.com/wallpaper/490/199/637/breaking-bad-for-desktop-background-wallpaper-preview.jpg);
 }
 
@@ -12,6 +13,7 @@ body {
     position: absolute;
     top: 50%;
     left: 50%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     transform:translate(-50%, -50%);
     box-shadow: 0px 4px 8px 0 black,
                 0px   6px 20px grey;
@@ -21,13 +23,16 @@ body {
 .infoPage.activePage,
 .examBox.activeExam{
     z-index: 5;
-    opacity: 1;
+    opacity: 10;
+    font-stretch: expanded;
+    color: black;
+    font-size: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     pointer-events: auto;
     transform: translate(-50%, -50%) scale(1);
     
 
 }
-
 
 
 
@@ -45,12 +50,13 @@ body {
 .infoPage{
     
     width: 540px;
-    background: green;
+    background: darkgreen;
     opacity: 0;
     pointer-events: none;
     transform: translate(-50%, -50%) scale(0.9);
     border-radius: 50px;
-    border: 10px solid grey
+    border: 10px solid grey;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     
 }
 
@@ -109,11 +115,11 @@ body {
 .buttons button.restart {
     
     color: black;
-    background: darkgreen;
+    background: white;
     }
 
 .buttons button.restart:hover {
-    background: darkgreen;
+    background: darkseagreen;
 }
 
 
@@ -356,4 +362,10 @@ footer .nextBtn:hover{
 
 
 
+@media screen and  (max-width: 1200px){
+   
+}
 
+@media screen and (max-width: 420px) {
+    
+}
