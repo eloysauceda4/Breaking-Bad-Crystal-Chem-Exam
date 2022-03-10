@@ -4,7 +4,7 @@ const exitBtn = infoPage.querySelector(".buttons .quit");
 const continueBtn = infoPage.querySelector(".buttons .restart");
 const examBox = document.querySelector(".examBox");
 const correctAnswer = document.querySelector(".answer")
-const replayBtn = document.querySelector(".restart")
+
 
 
 
@@ -29,8 +29,6 @@ beginn.onclick = () => {
     
  }
    
-
-
 
 
 
@@ -74,7 +72,9 @@ function showQuestions (index){
 
     
     
-
+window.onload = function(){
+    document.getElementById("my_audio").onplay()
+}
 
 
 

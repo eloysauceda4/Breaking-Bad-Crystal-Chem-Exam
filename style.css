@@ -214,7 +214,7 @@ color: black;
 }
 
  section .answerChoices .answer{
-    background: white;
+    background: grey;
     border: 3px solid black;
     border-radius: 50px;
     padding: 8px 15px;
@@ -239,7 +239,7 @@ section .answerChoices .answer:hover{
 
 }
 
-.answerChoices .answer .right_wrong{
+.answerChoices .answer .buttons{
     height: 26px;
     width: 26px;
     border: 2px solid transparent;
@@ -248,13 +248,10 @@ section .answerChoices .answer:hover{
     font-size: 13px;
     line-height: 24px;
     pointer-events: none;
+    
 
 }
- .answerChoices .answer .right_wrong .icon{
-     color: greenyellow;
-     border-color: green;
-     background: whitesmoke;
- }
+
 
 
 
@@ -273,14 +270,12 @@ justify-content: space-between;
     display: flex;
     user-select: none;
 }
-
 footer span p{
     font-weight: 500;
     padding: 0px 5px;
     
 
 }
-
 
 
 footer .nextBtn{
@@ -319,49 +314,27 @@ footer .nextBtn:hover{
     background: grey;
 }
 
-.results{
-    background: white;
-    width: 450px;
-    padding: 25px 30px;
-    border-radius: 5px;
-    display: flex;
-    text-align: center;
-    align-items: center;
-    flex-direction: column;
-    justify-content: space-between;
-    opacity: 0;
-    pointer-events: none;
-    transform: translate(-50%, -50%) scale(0.9);
-}
 
-.results .right_wrong .icon{
-    font-size: 100px;
-    color: green;
-    margin-bottom: 10px;
-}
 
-.results .completedExam{
-    font-size: 20px;
-    font-weight: 500;
-}
 
-.results .score span{
+
+ .score span{
     display: flex;
     margin: 10px 0;
     font-size: 18px;
     font-weight: 500;
 }
 
-.score span p{
+.score {
     font-weight: 600;
     padding: 0 4px;
 }
-.results .buttons {
+ .buttons {
     display: flex;
     margin: 20px 0;
 }
 
-.results .buttons button{
+ .buttons button{
     margin: 0 10px;
     height: 40px;
     padding: 0 20px;
@@ -375,4 +348,12 @@ footer .nextBtn:hover{
     transition: all 0.2s ease;
 
 }
+
+
+
+
+
+
+
+
 

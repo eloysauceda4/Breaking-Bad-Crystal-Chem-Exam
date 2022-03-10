@@ -112,6 +112,7 @@ let questions = [
     //index 9
     {   
         question: "After Badger's arrest, Walt hires a shady lawyer to help with the situation. What is this crooked lawyer's name?",
+        answer: "Saul Goodman",
         choices: [
             "Saul Goodman",
             "Jesse Pinkerman",
@@ -123,9 +124,7 @@ let questions = [
 
 
 
-
-    
-
+//credit: Piero assisted me with the following function
 
 let score = 0;
 
@@ -138,7 +137,7 @@ answerC.addEventListener('click', (answer)=> {
     if (answer.target.innerText == questions[questionCounter].answer) {
         score += 10
         scoreE.innerText = score
-        questionCounter++ 
+        questionCounter++
         
     }
 })
