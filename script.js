@@ -1,4 +1,4 @@
-const start = document.querySelector(".startBtn");
+const beginn = document.querySelector(".startBtn");
 const infoPage = document.querySelector(".infoPage");
 const exitBtn = infoPage.querySelector(".buttons .quit");
 const continueBtn = infoPage.querySelector(".buttons .restart");
@@ -11,7 +11,7 @@ const correctAnswer = document.querySelector(".answer")
 
 
 // //If start quiz button clicked
-start.onclick = () => {
+beginn.onclick = () => {
     infoPage.classList.add("activePage"); //show the page
  }
 

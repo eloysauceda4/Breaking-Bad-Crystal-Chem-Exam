@@ -68,37 +68,23 @@ let questions = [
 ]
 
 
-// let correctAnswer = questions[i].answer
-
-// for (let i = 0; i < questions.length; i++) {
-//     if (questions[i].answer ===  answer) {
-//     } else if (questions[i].answer === "Lung Cancer") {
-//         console.log(true)
-//     } else if (questions[i].answer === "Drug Enforcement Administration"){
-//         console.log(true)
-//     } else if (questions[i].answer === "New Mexico"){
-//         console.log(true)
-//     } else if (questions[i].answer === "Bryan Cranston"){
-//         console.log(true)
-//     } else if (questions[i].answer === "Chile") {
-//         console.log(true)
-//     } else {
-//         console.log (false)
-//     }
-// }
 
     
 
-
+//credit: Piero assisted with the following
 let score = 0;
 
  let scoreE = document.querySelector('.scorePoints')
 let answerC = document.querySelector('.answerChoices')
+let questionCounter = 0
 
 answerC.addEventListener('click', (answer)=> {
-    score += 10
-    if (score < 110) {
+    console.log(answer.target.innerText)
+    if (answer.target.innerText == questions[questionCounter].answer) {
+        score += 10
         scoreE.innerText = score
+        questionCounter++ 
+        
     }
 })
 
