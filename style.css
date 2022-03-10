@@ -49,6 +49,8 @@ body {
     opacity: 0;
     pointer-events: none;
     transform: translate(-50%, -50%) scale(0.9);
+    border-radius: 50px;
+    border: 10px solid grey
     
 }
 
@@ -214,13 +216,13 @@ color: black;
  section .answerChoices .answer{
     background: white;
     border: 3px solid black;
-    border-radius: 6px;
+    border-radius: 50px;
     padding: 8px 15px;
     margin-bottom: 15px;
     font-size: 17px;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     cursor: pointer;
     transition: all 0.2 ease;
 }
@@ -255,11 +257,7 @@ section .answerChoices .answer:hover{
  }
 
 
- .answerChoices .answer .right_wrong .icon {
-     color: red;
-     border-color: brown;
-     background: red;
- }
+
 
  .examBox footer{
 
@@ -377,10 +375,4 @@ footer .nextBtn:hover{
     transition: all 0.2s ease;
 
 }
-
-
-
-
-
-
 

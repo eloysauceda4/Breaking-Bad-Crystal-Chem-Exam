@@ -1,7 +1,7 @@
 // // // //credits:https://www.funtrivia.com/en/Television/Breaking-Bad-20207_5.html
 //    // credits: https://discuss.codecademy.com/t/quiz-in-java-script/571178/3 
 // // // //Questions script
-// // // //creating array with number, questions, and answers
+// // // //creating array with questions and answers.
 
 
     
@@ -65,13 +65,68 @@ let questions = [
             "Spain"
         ]
     },
+    //index 5
+    {   
+        question: "What color is the infamous box cutter that Gus uses to slash Victor's throat?",
+        answer: "Lime Green",
+        choices: [
+            "Black",
+            "Red",
+            "Lime Green",
+            "Grey"
+        ] 
+    },
+    //index 6
+    {   
+        question: "Jesse Pinkman is a former student of Walter White's that he recruits to help him with his drug empire because of his experience in the illegal drug scene. What nickname does Jesse go by before he joins up with Mr. White?",
+        answer: "Cap n Cook",
+        choices: [
+            "Cap n Cook",
+            "Chef Cook",
+            "Crystal Cook",
+            "Chef boy"
+        ]
+    },
+    //index 7
+    {   
+        question: "Who was Gus' partner in Los Pollos Hermanos and was killed by Hector Salamanca??",
+        answer:  "Max",
+        choices: [
+            "Tuco",
+            "Jesse",
+            "Hector jr",
+            "Max"
+        ]
+    },
+    //index 8
+    {   
+        question: "In what year was Walt awarded an award for his contributing research that led to a Nobel Prize?",
+        answer: "1985",
+        choices: [
+            "2001",
+            "2004",
+            "1985",
+            "1999"
+        ]
+    },
+    //index 9
+    {   
+        question: "After Badger's arrest, Walt hires a shady lawyer to help with the situation. What is this crooked lawyer's name?",
+        choices: [
+            "Saul Goodman",
+            "Jesse Pinkerman",
+            "Heisenberg",
+            "Walt Jr"
+        ]
+    },
 ]
+
 
 
 
     
 
-//credit: Piero assisted with the following
+
 let score = 0;
 
  let scoreE = document.querySelector('.scorePoints')
