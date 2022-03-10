@@ -30,7 +30,7 @@ body {
 
 
 
-/* Start exam button styling */
+
 .startBtn button {
     font-size: 15px;
     font-weight: 750;
@@ -248,14 +248,14 @@ section .answerChoices .answer:hover{
     pointer-events: none;
 
 }
- .answerChoices .answer .right_wrong{
+ .answerChoices .answer .right_wrong .icon{
      color: greenyellow;
      border-color: green;
      background: whitesmoke;
  }
 
 
- .answerChoices .answer .right_wrong {
+ .answerChoices .answer .right_wrong .icon {
      color: red;
      border-color: brown;
      background: red;
@@ -336,7 +336,7 @@ footer .nextBtn:hover{
     transform: translate(-50%, -50%) scale(0.9);
 }
 
-.results .right_wrong{
+.results .right_wrong .icon{
     font-size: 100px;
     color: green;
     margin-bottom: 10px;
