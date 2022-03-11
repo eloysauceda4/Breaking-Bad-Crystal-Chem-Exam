@@ -41,7 +41,7 @@
 ***
 
  ### ***Credits***
- #### Resources:
+ 
  ## [imbd](https://www.imdb.com/title/tt0903747/)
  ## [FunTrivia](https://www.funtrivia.com/en/Television/Breaking-Bad-20207.html)
  ## [codecademy](https://discuss.codecademy.com/t/quiz-in-java-script/571178/3)
