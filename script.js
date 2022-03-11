@@ -124,8 +124,7 @@ window.onload = function(){
 
 // // // //credits:https://www.funtrivia.com/en/Television/Breaking-Bad-20207_5.html
 //    // credits: https://discuss.codecademy.com/t/quiz-in-java-script/571178/3 
-// // // //Questions script
-// // // //creating array with number, questions, and answers
+
 
 
    

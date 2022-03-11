@@ -2,7 +2,7 @@ body {
     /* background: url(https://pbs.twimg.com/media/FJkSH9QUcAAGm-Z?format=jpg&name=4096x4096); */
     background-repeat: no-repeat;
     background-size: cover;
-   
+    display: flex;
     background: url(https://c4.wallpaperflare.com/wallpaper/490/199/637/breaking-bad-for-desktop-background-wallpaper-preview.jpg);
 }
 
@@ -29,6 +29,7 @@ body {
     font-size: 25px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     pointer-events: auto;
+    
     transform: translate(-50%, -50%) scale(1);
     
 
